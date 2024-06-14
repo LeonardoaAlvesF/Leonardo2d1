@@ -1,0 +1,483 @@
+body{
+    margin: 0%;
+    background-color: black;
+    
+}
+ 
+  /*div{
+    border: 1px solid white;
+  }
+
+
+/*PARTE 1*/
+
+#barra_lateral{
+    display: inline-block;
+    background-color: black ;
+    margin: 0px;
+    height: 975vh;
+    width: 11%;
+    color: white;
+    vertical-align: top;
+    padding: 2%;   
+
+}
+
+#principal{
+    display: inline-block;
+    position: absolute;
+    background-image: url(img_9.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 85%;
+    background-attachment: fixed;
+   
+}
+#WELCOME{
+     backdrop-filter: brightness(50%);
+     text-align: center;
+     height: 98vh;
+     display: flex;
+     justify-content: center;
+   
+}
+#escrita_lateral{
+    position: sticky;
+    top: 33px;
+    font-family: "Quicksand", sans-serif;
+    line-height: 1.5;
+    font-size: 20px;
+}
+.opc{
+    font-size: 12.8px;
+    color: white;
+    text-decoration: none;
+}
+.opc:hover{
+    color: #df0e62;
+}
+.icone{
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    margin: 6px;
+}
+#espaço{
+    height: 20px;
+}
+#face{
+    width: 11px;
+    height: 12px; 
+}
+#titulo{
+    color: white;
+    font-family: "Oswald", sans-serif;  
+    font-size: 64px;
+    font-weight: 500;
+    
+}
+#texto{
+    font-family: "Quicksand", sans-serif;
+    color: white;
+    font-size: 20px;
+    font-weight: lighter;
+    
+}
+#contactMe{
+    padding: 15px 30px;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: .1em;
+    border-radius: 30px;
+    background-color: #df0e62;
+    border-color: #df0e62;
+    color: white;
+    border: none;
+    font-family: "Quicksand", sans-serif;
+    line-height: 1.5;
+}
+#descrição{
+    margin-top: 18%;
+    height: 400px;   
+}
+
+/*PARTE 2*/
+
+#imagens div{
+    position: relative;
+    display: inline-block;
+    width: 33.1%;
+    overflow: hidden;
+}
+#imagens img{
+    width: 100%;
+    object-fit: cover;
+    height: 300px;
+    transition: 0.5s;
+}
+#imagens svg{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    height: 20px;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+    transition: 0.5s;
+}
+#imagens div:hover svg{
+    top: 50%;
+    opacity: 1;
+        
+}
+#imagens div:hover img{
+    filter: brightness(50%);
+}
+
+/*PARTE 3*/
+#opinioes{
+    text-align: center;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+}
+#titulo2{
+    color: white;
+    font-family: "Oswald", sans-serif;   
+    font-size: 60px;
+    width: 100%;
+    margin-top: 9.5%;
+    margin-bottom: 4%;
+    font-weight: 400;
+
+
+}
+
+#opinioes img{
+    border-radius: 50%;
+    width: 12%;
+}
+#name{
+    font-family: "Quicksand", sans-serif;
+    font-weight: bold;
+    color: white;
+    justify-content: center;
+
+
+}
+#opinioes_text{
+    font-family: "Quicksand", sans-serif;
+    color: gray; 
+    width: 50%;
+    line-height: 1.7;
+    font-size: 16px;
+  }  
+#opinioes svg{
+    width: 11px;
+}
+  #button_pos{
+    width: 55%;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  #button_nav{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border: none;
+    background-color: #1a1a1a;
+    color: white;
+    font-family: "Oswald", sans-serif;
+    font-size: 20px;
+   
+  }
+    #button_nav2{
+    width:5px;
+   height:12px;
+   border-radius: 50%;
+   border: none;
+   background-color: #1a1a1a;
+   margin-top: 70%;
+   margin-bottom: 400%;
+
+   
+}
+#button_nav2:hover{
+    background-color: #df0e62; 
+   
+}
+#button_nav:hover{
+    background-color: #df0e62; 
+}
+ 
+/*PARTE 4*/
+
+#fundo_bio{
+    width: 100%;
+    background-color: #1a1a1a;
+    display: flex;
+    height: 180vh;
+   
+}
+#barrinha{
+    width: 100px;
+    height: 4px;
+    background-color: #df0e62;
+}
+
+
+    #bio_all{
+        position: relative;
+        top: 1%;
+        left: 14%;
+        display: flex;
+        flex-direction: column;
+        width: 77%;
+        
+    }
+#bio_all img{
+    width: 35%;
+    margin-top: 5%;
+    
+}
+#texto_bio{
+    width: 70%;
+    display: flex;
+    position: relative;
+    margin-top: 5%;
+    flex-direction: column;
+    color: #6c757d;
+    font-family: "Quicksand", sans-serif; 
+    font-size: medium;
+    line-height: 1.7;
+}
+.branco{
+    color: white;
+    font-family: "Oswald", sans-serif;
+    font-size: 33px;
+    margin-top: 4%;
+    
+    font-weight: 400;
+    
+}
+#texto_bio a{
+    color: #df0e62;
+    text-decoration: none;
+    
+}
+#lista{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    width: 77%;
+    left: -3.5%;
+    margin-top: -4%;
+}
+
+
+
+#lista div{
+    font-size: 15px;
+    justify-content: left;
+    text-align: left;
+    margin-top: 10%;
+    color: #6c757d;
+    font-family: "Quicksand", sans-serif;
+}
+
+#lista li{
+    list-style: none;
+    margin-top: 12px;
+
+}
+#lista svg{
+    width: 4%;
+    margin-right: 5%;
+
+}
+
+/*PARTE 5*/
+#blog{
+    width: 78%;
+    display: flex;
+    position: relative;
+        flex-direction: column;
+        margin-left: 22%;
+}
+.section{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+}
+
+
+#titulo_blog{
+    color: white;
+    font-family: "Oswald", sans-serif;
+    font-size: 60px;
+    margin-top: 10%;
+}
+#blog img{
+    width: 50%;
+    margin-top: 20%;
+    margin-bottom: -10%;
+}
+.titulo2_blog{
+    color: white;
+    font-family: "Oswald", sans-serif;
+    font-size: 22px;
+    margin-bottom: -5px;
+
+}
+.texto_blog{
+    color: #6c757d;
+    font-family: "Quicksand", sans-serif;
+    font-size: 1rem;
+}
+#blog a{
+    color: #df0e62;
+    text-decoration: none;
+}
+.espaco_blog{
+    margin-top: 8%;
+    margin-left: -15%;
+}
+#nav_blog{
+    display: flex;
+    position: absolute;
+    margin-top: 39%;
+    color: #6c757d;
+    font-size: 16px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 27%;
+    font-family: "Oswald", sans-serif;
+}
+#nav_blog button{
+    background: black;
+    color: #df0e62;
+    border: none;
+    font-family: "Oswald", sans-serif;
+    font-size: 16px;
+    margin-top: -8px;
+    margin-left: 5%;
+    border-radius: 50%; 
+    width: 70px;
+    height: 40px;
+    
+   
+}
+#nav_blog span{
+    margin-left: 7%;
+    margin-right: 7%;
+}
+#nav_blog button:hover{
+    background-color: #df0e62;  
+    color: white;   
+}           
+
+/*PARTE 6*/
+
+#fundo_contact{
+width: 100%;
+background-color: #1a1a1a;
+display: flex;
+position: relative;
+height: 125vh;
+margin-top: 25%;
+}
+
+#contact_all{
+    position: relative;
+    top: 9%;
+    left: 14%;
+    display: flex;
+    flex-direction: column;
+    width: 77%; 
+}
+#titulo_contact{
+    color: white;
+    font-family: "Oswald", sans-serif;
+    font-size: 64px;
+    margin-bottom: 2%;
+    
+
+}
+#name{
+    display: flex;
+    flex-direction: row;
+    width: 75.5%;
+}
+#contact_all input{
+    border: none;
+    border-bottom: 2px solid gray;
+    border-radius: 0;
+    background: none;
+    color: #fff;
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: 5px;
+    width: 75%;
+    
+    
+}
+#contact_all input:focus{
+    border-bottom: 2px solid white;
+    outline: none;
+}
+.texto_contact{
+    color: white;
+    font-family: "Quicksand", sans-serif;
+    font-weight: lighter;
+    margin-top: 2%;
+    font-size: 16px;
+    margin-bottom: 3%;
+    font-weight: lighter;
+    
+}
+#espaço_contact{
+    margin-left: 30%;
+}
+
+#contact_all textarea{
+    border: none;
+    border-bottom: 2px solid gray;
+    background-color: transparent;
+    height: auto;
+    display: block;
+    font-size: medium;
+    color: white;
+}
+#contact_all textarea:focus{
+    border-bottom: 2px solid white;
+    outline: none;
+}
+
+#contactbtn{
+    padding: 15px 30px;
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: .1em;
+    border-radius: 30px;
+    background-color: #df0e62;
+    border-color: #df0e62;
+    color: white;
+    border: none;
+    line-height: 1.5;
+    margin-top: 5%;
+}
+
+#copyright{
+    font-family: "Oswald", sans-serif;
+    font-weight: lighter;
+    color: #ffffff;
+    width: 95%;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 4%;
+    letter-spacing: 1px;
+}
+#contact_all ::placeholder{
+    font-family: "Quicksand", sans-serif;
+}
